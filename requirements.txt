@@ -1,0 +1,8 @@
+pandas
+numpy
+pyarrow
+duckdb
+pydantic
+great-expectations
+streamlit
+plotly
