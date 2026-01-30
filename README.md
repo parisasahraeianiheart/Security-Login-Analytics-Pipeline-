@@ -41,8 +41,11 @@ ML / Analytics / Decision Systems
 ## 🏗 Project Structure
 
 security-login-analytics/
+
 │
+
 ├── src/
+
 │   ├── config.py                # Global config, paths, DB
 │   ├── utils_logging.py         # Logging system
 │   ├── utils_quality.py         # Data quality checks
@@ -54,10 +57,13 @@ security-login-analytics/
 │   ├── analytics_checks.py      # dbt-like data tests
 │   ├── dashboard_app.py         # Streamlit dashboard
 │
+
 ├── data/
+
 │   ├── raw/                     # Raw files
 │   ├── staging/                 # Cleaned parquet files
 │
+
 ├── warehouse/
 │   └── security.duckdb          # Analytics warehouse
 │
