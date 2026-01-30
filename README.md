@@ -38,39 +38,6 @@ ML / Analytics / Decision Systems
 
 ---
 
-## 🏗 Project Structure
-
-security-login-analytics/
-
-│
-
-├── src/
-
-│   ├── config.py                # Global config, paths, DB
-│   ├── utils_logging.py         # Logging system
-│   ├── utils_quality.py         # Data quality checks
-│   ├── generate_data.py         # Synthetic data generator
-│   ├── etl_extract.py           # Extract layer
-│   ├── etl_transform.py         # Transform layer
-│   ├── etl_load.py              # Load into DuckDB
-│   ├── analytics_build.py       # Analytics models (dims/facts/marts)
-│   ├── analytics_checks.py      # dbt-like data tests
-│   ├── dashboard_app.py         # Streamlit dashboard
-│
-
-├── data/
-
-│   ├── raw/                     # Raw files
-│   ├── staging/                 # Cleaned parquet files
-│
-
-├── warehouse/
-│   └── security.duckdb          # Analytics warehouse
-│
-└── README.md
-
-
-
 
 👤 Author
 
