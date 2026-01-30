@@ -19,21 +19,21 @@ This project simulates a real-world enterprise security analytics system and dem
 
 ## 🧠 Architecture Overview
 Data Generation
-↓
+->
 ETL Pipeline
-↓
+->
 Parquet Lake
-↓
+->
 DuckDB Warehouse
-↓
+->
 Staging Layer
-↓
+->
 Analytics Layer (dims/facts/marts)
-↓
+->
 Quality Checks
-↓
+->
 Streamlit Dashboard
-↓
+->
 ML / Analytics / Decision Systems
 
 ---
